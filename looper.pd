@@ -5,9 +5,9 @@
 #X obj 444 212 s \$0-record;
 #X obj 494 189 s \$0-stop;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array \$0-buffer 109376 float 0 black #ffffff;
-#X coords 0 0.1 109375 -0.1 195 139 1;
-#X restore 57 81 graph;
+#X array \$0-buffer 115584 float 0 black #ffffff;
+#X coords 0 0.1 115583 -0.1 195 139 1;
+#X restore 57 96 graph;
 #N canvas 74 26 1084 682.094 record 0;
 #X obj 34 86 inlet~;
 #X obj 60 127 r \$0-record;
@@ -158,16 +158,16 @@
 #X array \$0-recbuffer 441000 float 0 black #ffffff;
 #X coords 0 0.1 440999 -0.1 200 140 1;
 #X restore 56 475 graph;
-#X obj 57 221 hsl 190 15 0 1 0 0 \$0-tmp \$0-phase empty -2 -8 0 10
--1 -262144 -1 0 1;
+#X obj 57 255 hsl 190 15 0 1 0 0 \$0-tmp \$0-phase empty -2 -8 0 10
+-1 -262144 -1 18463 1;
 #X text 448 570 current phase;
 #X obj 448 491 s \$0-phase;
-#X obj 57 239 hsl 190 15 0 1 0 0 \$0-loopstart \$0-HSstart empty -2
--8 0 10 -1 -262144 -262144 7035 1;
+#X obj 57 81 hsl 190 15 0 1 0 0 \$0-loopstart \$0-HSstart empty -2
+-8 0 10 -83221 -208051 -262144 1300 1;
 #X obj 61 402 s \$0-HSstart;
 #X obj 167 402 s \$0-HSend;
-#X obj 57 257 hsl 190 15 0 1 0 0 \$0-loopend \$0-HSend empty -2 -8
-0 10 -1 -262144 -262144 14553 1;
+#X obj 57 235 hsl 190 15 0 1 0 0 \$0-loopend \$0-HSend empty -2 -8
+0 10 -83221 -208051 -262144 18710 1;
 #X obj 656 121 minmax;
 #X msg 61 372 set \$1;
 #X msg 167 372 set \$1;
