@@ -1,0 +1,13 @@
+#N canvas 216 170 745 300 10;
+#X obj 309 164 mstof;
+#X floatatom 309 204 5 0 0 0 - - -, f 5;
+#X obj 57 163 mstof;
+#X msg 57 121 10000;
+#X floatatom 57 203 5 0 0 0 - - -, f 5;
+#X text 53 70 for 10000ms freq should be 0.1;
+#X text 305 71 for 200ms freq should be 5;
+#X msg 309 122 200;
+#X connect 0 0 1 0;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 7 0 0 0;

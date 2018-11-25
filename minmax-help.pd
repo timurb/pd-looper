@@ -1,0 +1,12 @@
+#N canvas 415 22 450 300 10;
+#X obj 40 142 minmax;
+#X floatatom 40 74 5 0 100 0 - - -, f 5;
+#X floatatom 73 102 5 0 100 0 - - -, f 5;
+#X floatatom 40 197 5 0 0 0 - - -, f 5;
+#X floatatom 73 224 5 0 0 0 - - -, f 5;
+#X text 115 43 outputs lower value on the left and higher value on
+the right always;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;

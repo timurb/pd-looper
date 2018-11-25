@@ -1,0 +1,16 @@
+#N canvas 129 22 1022 701.062 10;
+#X floatatom 55 108 5 0 0 0 - - -, f 5;
+#X floatatom 55 216 5 0 0 0 - - -, f 5;
+#X floatatom 55 159 5 0 0 0 - - -, f 5;
+#X text 88 158 Hz;
+#X text 89 107 samples;
+#X text 89 215 samples;
+#X obj 55 132 samtofreq;
+#X obj 55 183 freqtosam;
+#X text 55 34 [samtofreq] converts values in samples to frequency.
+;
+#X text 55 71 [freqtosam] does the opposite.;
+#X connect 0 0 6 0;
+#X connect 2 0 7 0;
+#X connect 6 0 2 0;
+#X connect 7 0 1 0;

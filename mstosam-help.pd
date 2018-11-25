@@ -1,0 +1,16 @@
+#N canvas 0 0 1022 701 10;
+#X obj 55 183 samtoms;
+#X obj 55 132 mstosam;
+#X floatatom 55 108 5 0 0 0 - - -;
+#X floatatom 55 216 5 0 0 0 - - -;
+#X floatatom 55 159 5 0 0 0 - - -;
+#X text 55 34 [mstosam] converts values in milliseconds to samples
+in current sample rate.;
+#X text 89 107 ms;
+#X text 88 158 samples;
+#X text 89 215 ms;
+#X text 55 71 [samtoms] does the opposite.;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 2 0 1 0;
+#X connect 4 0 0 0;

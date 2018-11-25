@@ -1,0 +1,13 @@
+#N canvas 2 0 1022 325 10;
+#X obj 40 62 inlet;
+#X obj 139 141 samplerate~;
+#X obj 40 94 t f b;
+#X obj 40 201 outlet;
+#X text 76 62 samples;
+#X text 82 200 ms;
+#X obj 40 165 expr 1000*$f1/$f2;
+#X connect 0 0 2 0;
+#X connect 1 0 6 1;
+#X connect 2 0 6 0;
+#X connect 2 1 1 0;
+#X connect 6 0 3 0;

@@ -1,0 +1,13 @@
+#N canvas 783 230 450 300 10;
+#X msg 100 189 copy \$1;
+#X obj 100 217 arraycopy \$2;
+#X obj 127 126 array size \$2;
+#X obj 100 97 t b f;
+#X obj 100 69 inlet;
+#X text 70 40 array-copypart $from $to;
+#X obj 100 156 symbol \$1;
+#X connect 0 0 1 0;
+#X connect 3 0 6 0;
+#X connect 3 1 2 0;
+#X connect 4 0 3 0;
+#X connect 6 0 0 0;

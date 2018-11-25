@@ -1,0 +1,30 @@
+#N canvas 79 99 762 595.094 10;
+#X floatatom 59 324 5 0 0 0 - - -, f 5;
+#X obj 59 210 s \$0-select;
+#X obj 182 210 s \$0-first;
+#X obj 277 210 s \$0-second;
+#X obj 59 297 fselect \$0-select \$0-first \$0-second 10 20;
+#X msg 59 166 0;
+#X msg 95 166 1;
+#X floatatom 182 166 5 0 0 0 - - -, f 5;
+#X floatatom 277 166 5 0 0 0 - - -, f 5;
+#X text 19 13 Listens channel specified as a first param and outputs
+first stored number on 0 and second number on 1;
+#X text 19 53 Numbers can be redefined by sending data to channels
+specified as a 2nd and 3rd params. 4th and 5th params specify defaults.
+;
+#X text 19 110 Inputs mimic the channels but there is really no need
+to use them.;
+#X msg 59 257 0;
+#X msg 95 257 1;
+#X floatatom 182 257 5 0 0 0 - - -, f 5;
+#X floatatom 277 257 5 0 0 0 - - -, f 5;
+#X connect 4 0 0 0;
+#X connect 5 0 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 2 0;
+#X connect 8 0 3 0;
+#X connect 12 0 4 0;
+#X connect 13 0 4 0;
+#X connect 14 0 4 1;
+#X connect 15 0 4 2;

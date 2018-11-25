@@ -1,0 +1,12 @@
+#N canvas 539 72 541 300.062 10;
+#X obj 46 129 froute;
+#X obj 46 191 print A;
+#X obj 79 166 print B;
+#X obj 100 87 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 46 58 5 0 0 0 - - -, f 5;
+#X text 24 18 Routes left input according to toggle state;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 3 0 0 1;
+#X connect 4 0 0 0;

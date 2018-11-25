@@ -1,0 +1,14 @@
+#N canvas 320 137 450 300 10;
+#X obj 51 64 inlet~;
+#X obj 316 122 switch~ 1 1 1;
+#X obj 316 76 r dsp;
+#X obj 51 199 outlet;
+#X obj 179 199 outlet;
+#X text 33 17 threshold~ with instant detection;
+#X obj 112 64 inlet;
+#X obj 50 134 threshold~ \$1 \$2 \$3 \$4;
+#X connect 0 0 7 0;
+#X connect 2 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 3 0;
+#X connect 7 1 4 0;

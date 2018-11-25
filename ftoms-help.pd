@@ -1,0 +1,16 @@
+#N canvas 0 0 1022 701 10;
+#X floatatom 55 108 5 0 0 0 - - -;
+#X floatatom 55 216 5 0 0 0 - - -;
+#X floatatom 55 159 5 0 0 0 - - -;
+#X text 89 107 ms;
+#X text 89 215 ms;
+#X text 55 34 [mstof] converts values in milliseconds to frequency.
+;
+#X text 55 71 [ftoms] does the opposite.;
+#X obj 55 132 mstof;
+#X text 88 158 Hz;
+#X obj 55 183 ftoms;
+#X connect 0 0 7 0;
+#X connect 2 0 9 0;
+#X connect 7 0 2 0;
+#X connect 9 0 1 0;
