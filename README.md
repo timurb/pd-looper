@@ -5,7 +5,9 @@ There are dozens of loopers on the market but all of them are lacking the featur
 This is the implementation of the looper in PureData.
 Some other objects could be useful in other setups.
 
-The development is done in https://agraef.github.io/purr-data/ and that means there could be bugs or suboptimal working in stock PureData.
+The development is going in https://agraef.github.io/purr-data/ and that means there could be bugs or suboptimal working in stock PureData.
+
+Note: don't try to read the code, it is not for human consumption.
 
 ## Usage
 
